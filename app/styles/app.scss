@@ -1,6 +1,11 @@
+// Base styling and resets
 @import 'normalize';
 @import 'bourbon';
 @import 'colors';
 @import 'resets';
 
+// Component styles
 @import 'components/styles';
+
+// Route-specific styles
+@import 'about/style';
