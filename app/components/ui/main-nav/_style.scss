@@ -1,15 +1,27 @@
 .ui.main-nav {
-  @include transition(box-shadow 200ms ease-in-out);
   position: fixed;
   top: 0;
   left: 0;
   padding: 1em;
   
-  &:hover {
-    box-shadow: 0 0 5px $gray;
+  ul {
+    @include display(flex);
+    @include flex-direction(column);
+    @include align-items(center);
+    @include transition(all 500ms ease-in-out);
+    
+    opacity: 0.25;
+    
+    li {
+      margin: 3px;
+    }
   }
   
-  h1 {
-    cursor: default;
+  
+  
+  &.is-open {
+    ul {
+      opacity: 1;
+    }
   }
 }
