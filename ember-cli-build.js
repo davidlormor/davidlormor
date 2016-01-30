@@ -7,7 +7,8 @@ module.exports = function(defaults) {
     // Add options here
     sassOptions: {
       includePaths: [
-        'node_modules/colors.css/sass/'
+        'node_modules/colors.css/sass/',
+        'app'
       ]
     }
   });
