@@ -1,27 +1,41 @@
 .ui.main-nav {
+  @include transition(all 250ms ease-in-out);
   position: fixed;
   top: 0;
   left: 0;
   padding: 1em;
+  opacity: .25;
+  
+  h1 {
+    @include display(flex);
+    @include align-items(center);
+    
+    .icon {
+      color: $green;
+      margin: 0 5px;
+    }
+  }
   
   ul {
     @include display(flex);
     @include flex-direction(column);
     @include align-items(center);
-    @include transition(all 500ms ease-in-out);
     
-    opacity: 0.25;
     
     li {
+      @include transition(border-color 250ms ease-in-out);
       margin: 3px;
+      border-bottom: 1px solid transparent;
+      
+      &:hover {
+        border-color: $green;
+      }
     }
   }
   
   
   
   &.is-open {
-    ul {
-      opacity: 1;
-    }
+    opacity: 1;
   }
 }
