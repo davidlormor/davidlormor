@@ -1,0 +1,9 @@
+.page.index {
+  @include display(flex);
+  @include flex-direction(column);
+  @include align-items(center);
+  
+  p {
+    margin: 3px 0;
+  }
+}
