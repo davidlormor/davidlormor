@@ -1,0 +1,12 @@
+.projects-list {
+  @include display(flex);
+  @include flex-direction(column);
+  @include align-items(center);
+  
+  * {
+    text-align: center;
+  }
+  label {
+    font-weight: bold;
+  }
+}
