@@ -1,0 +1,32 @@
+.skills {
+  @include display(flex);
+  @include flex-direction(column);
+  @include align-items(center);
+  margin: 0 15px;
+  text-align: center;
+  
+  .section-title {
+    margin-bottom: 5px;
+  }
+  
+  .skill-groups {
+    @include display(flex);
+    border-top: 1px solid $gray;
+    border-bottom: 1px solid $gray;
+  }
+  
+  .skill-group {
+    margin: 15px;
+    
+    h1 {
+      border-bottom: 1px solid $gray;
+      margin-bottom: 5px;
+      padding: 0 5px;
+    }
+    
+    ul {
+      @include display(flex);
+      @include flex-direction(column);
+    }
+  }
+}
