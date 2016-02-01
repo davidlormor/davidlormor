@@ -1,53 +1,18 @@
-# Davidlormor
+# davidlormor.com
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+this is the codebase for my personal codebase. feel free to take a look around.
 
-## Prerequisites
+## tools
 
-You will need the following things properly installed on your computer.
+this site is built on the following tools:
 
-* [Git](http://git-scm.com/)
-* [Node.js](http://nodejs.org/) (with NPM)
-* [Bower](http://bower.io/)
-* [Ember CLI](http://www.ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
-
-## Installation
-
-* `git clone <repository-url>` this repository
-* change into the new directory
-* `npm install`
-* `bower install`
-
-## Running / Development
-
-* `ember server`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
+* [ember](http://www.emberjs.com/)
 * [ember-cli](http://www.ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+* [git](http://git-scm.com/)
+* [node](http://nodejs.org/) (with npm)
+* [bower](http://bower.io/)
+* [phantomjs](http://phantomjs.org/)
 
+### deployment
+
+this site is deployed on [pagefront](https://pagefronthq.com)
