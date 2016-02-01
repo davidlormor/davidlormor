@@ -1,6 +1,6 @@
 # davidlormor.com
 
-this is the codebase for my personal codebase. feel free to take a look around.
+this is the codebase for my personal website. feel free to take a look around.
 
 ## tools
 
