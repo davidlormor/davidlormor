@@ -1,0 +1,23 @@
+.contact-methods {
+  @include display(flex);
+  @include flex-direction(column);
+  @include align-items(center);
+  
+  .twitter {
+    .icon {
+      color: $blue;
+    }
+  }
+  
+  .github {
+    .icon {
+      color: $black;
+    }
+  }
+  
+  .linkedin {
+    .icon {
+      color: $navy;
+    }
+  }
+}

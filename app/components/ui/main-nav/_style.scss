@@ -1,5 +1,5 @@
 .ui.main-nav {
-  @include transition(all 250ms ease-in-out);
+  @include transition(all 200ms ease-in-out);
   position: fixed;
   top: 0;
   left: 0;
@@ -23,7 +23,7 @@
     
     
     li {
-      @include transition(border-color 250ms ease-in-out);
+      @include transition(border-color 100ms ease-in-out);
       margin: 3px;
       border-bottom: 1px solid transparent;
       
