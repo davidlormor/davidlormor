@@ -17,21 +17,20 @@
     @include display(flex);
     @include justify-content(flex-end);
     @include align-items(center);
+  }
+  
+  .link-to {
+    @include transition(border-color 100ms ease-in-out);
+    border-bottom: 1px solid transparent;
+    margin: 0 5px;
+    padding: 5px;
     
-    li {
-      @include transition(border-color 100ms ease-in-out);
-      @include border-top-radius(3px);
-      margin: 0 5px;
-      padding: 5px;
-      border-bottom: 1px solid transparent;
-      
-      &:hover {
-        border-color: $green;
-      }
-      
-      &.active {
-        background: $silver;
-      }
+    &:hover {
+      border-color: $silver;
+    }
+    
+    &.active:not(h1) {
+      border-color: $green;
     }
   }
 }
