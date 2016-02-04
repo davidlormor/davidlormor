@@ -41,7 +41,8 @@
     "ember-disable-proxy-controllers": "^1.0.1",
     "ember-export-application-global": "^1.0.4",
     "ember-normalize": "0.0.9",
-    "ember-pagefront": "0.10.10"
+    "ember-pagefront": "0.10.10",
+    "torii": "0.6.1"
   },
   "dependencies": {}
 }
