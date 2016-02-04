@@ -4,6 +4,7 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'davidlormor',
     environment: environment,
+    firebase: 'https://davidlormor.firebaseio.com/',
     baseURL: '/',
     locationType: 'auto',
     contentSecurityPolicy: {
